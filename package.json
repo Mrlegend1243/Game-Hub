@@ -1,0 +1,9 @@
+{
+  "name": "game-hub",
+  "version": "1.0.0",
+  "description": "A personal game launcher with custom banners",
+  "main": "main.js",
+  "scripts": { "start": "electron .", "dist": "electron-builder --win" },
+  "devDependencies": { "electron": "^38.0.0", "electron-builder": "^26.0.12" },
+  "build": { "appId": "com.gamehub.launcher", "productName": "Game Hub", "win": { "target": "nsis" } }
+}
